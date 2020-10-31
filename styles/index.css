@@ -1,0 +1,254 @@
+@font-face {
+  font-family: 'Ubuntu-M';
+  src: url('../fonts/Ubuntu-M.ttf');
+  src: url('../fonts/Ubuntu-italic.ttf') format('italic');
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../OpenSans-Regular.ttf');
+}
+.wrapper {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headerWrapper {
+  padding-top: 30px;
+  padding-right: 110px;
+  padding-left: 130px;
+  padding-bottom: 30px;
+}
+.navigation {
+  display: inline-block;
+  position: inherit;
+  float: right;
+}
+.navigationList {
+  list-style: none;
+
+}
+.navigationListItem {
+  display: inline-block;
+  margin-left: 30px;
+}
+.navigationLink {
+  color: rgba(45, 57, 76, 0.839);
+  text-decoration: none;
+  font-size: 16px;
+}
+.mainWrapper {
+  max-height: 837px;
+  background-image: url(../image/Banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #26AADB;
+  padding-top: 239px;
+  padding-left: 160px;
+  color: rgb(247, 246, 242);
+}
+
+.headerClouds {
+  display: inline-block;
+}
+.imageHand {
+  margin-top: 20px;
+  display: inline-block;
+}
+.mainText {
+  display: inline-block;
+  font-size: 22px;
+  line-height: 60px;
+}
+.mainTextLink {
+  margin: 0;
+}
+.textBanner {
+font-size: 18px;
+}
+.textOverForm {
+  margin-top: 61px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.textBackground {
+  background-color: #ffce54;
+  font-size: 12px;
+  padding: 4px;
+  border: 1px solid #ffce54;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.formaSingnup {
+  padding-top: 20px;
+  padding-bottom: 230px;
+}
+.formInput {
+  width: 330px;
+  height: 35px;
+  border-radius: 7px;
+  border-color: #fff;
+  border: 1px;
+}
+.formLabel {
+  margin-left: 20px;
+  background-color: #77c344;
+  font-size: 14px;
+  padding: 12px;
+  border: 1px solid #77c344;
+  background-size: 35px;
+  border-radius: 7px;
+}
+.tradeMarks {
+  display: inline-block;
+  max-height: 160px;
+  background-color: #f8f8f8;
+  background-size: cover;
+  padding-right: 109.2px;
+}
+.tradeListItem {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 130px;
+  vertical-align: middle;
+}
+.tradeMarksList {
+  list-style: none;
+}
+.tradeLink {
+  text-decoration: none;
+}
+.imgTrade {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align;
+}
+.textHeading {
+  font-size: 40px;
+  color: rgba(45, 57, 76, 0.851);
+  text-transform: uppercase;
+  margin-left: 546px;
+}
+.article {
+  width: 500px;
+  display: inline-block;
+  margin-left: 130px;
+}
+.cloudText {
+  font-size: 22px;
+  background: #fff;
+}
+.imgCloud {
+  vertical-align: middle;
+  padding-right: 15px;
+}
+.cloudTextArticle {
+  font-size: 14px;
+  font-family: "Open Sans" Arial, Helvetica, sans-serif;
+  line-height: 1.571;
+  color: rgb(148, 153, 162);
+}
+.imgMacbook {
+  display: inline-block;
+  margin-left: 110px;
+}
+.blockMac {
+  display: inline-block;
+}
+.ship {
+  margin-top: 120px;
+  background-color: #f8f8f8;
+  max-height: 838px;
+  background-image: url(../image/boats.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.shipText {
+  font-size: 40px;
+  color: rgba(45, 57, 76, 0.851);
+  text-transform: uppercase;
+  padding-top: 226px;
+  margin-left: 546px;
+}
+.shipTextBlog {
+  font-size: 14px;
+  font-family: "Open Sans" Arial, Helvetica, sans-serif;
+  line-height: 1.571;
+  color: rgb(148, 153, 162);
+  width: 723px;
+  margin-left: 130px;
+}
+.shipTextImg {
+  font-size: 22px;
+  margin-left: 130px;
+}
+.figures {
+  padding-bottom: 120px;
+  margin-left: 731px;
+  margin-top: 47px;
+}
+.figuresLink {
+  text-decoration: none;
+  font-size: 10px;
+  color: rgba(45, 57, 76, 0.271);
+}
+.figuresLink {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(45, 57, 76, 0.271);
+  padding: 10px;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+.active {
+  background-color: #26AADB;
+  color: #fff;
+}
+.textSave {
+  font-size: 40px;
+  color: rgb(90, 98, 110);
+  text-align: center;
+}
+.blockSave {
+  margin-top: 90px;
+  font-family: "Ubuntu" Arial, Helvetica, sans-serif;
+  margin-bottom: 170px;
+}
+.textBlockSave {
+  font-size: 24px;
+  color: rgb(90, 98, 110);
+  font-style: italic;
+  text-align: center;
+}
+.footerBlock {
+  background-color: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: inline-block;
+  padding-left: 130px;
+  max-height: 130px;
+}
+.navigationFooter {
+  display: inline-block;
+  margin-left: 300px;
+  padding-right: 117px;
+}
+.navigationListFooter {
+  list-style: none;
+}
+.navigationListItemFooter {
+  display: inline-block;
+  margin-left: 30px;
+
+}
+.navigationLinkFooter {
+  color: rgba(77, 86, 100, 0.902);
+  text-decoration: none;
+  font-size: 14px;
+}
+.footerBlockImg {
+  margin-top: 13px;
+}
